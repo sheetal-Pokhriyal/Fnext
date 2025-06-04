@@ -1,0 +1,138 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('images/pexels-pixabay-461940.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-container{
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(180, 176, 176, 0.5);
+    width: 350px;
+}
+.form-container h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(239, 235, 215);
+}
+label{
+      display: block;
+      margin: 10px 20px ;
+      color: aliceblue;
+      
+}
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"]{
+    width:200px;
+    padding: 8px;
+    margin: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+input[type = "checkbox"]{
+    margin-top:15px;
+    margin-bottom: 20px;
+}
+.submit-btn{
+     padding: 5px 30px;           
+     background-color: #4CAF50;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     display: block;               
+     margin: 20px auto 0;         
+     font-size: 16px;
+
+}
+.submit-btn:hover{
+    background-color: #45a049;
+}
+#errorMsg{
+    color: red;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.login{
+    background: url('images/pexels-life-of-pix-7919.jpg');
+    background-size: cover ;
+}
+.calc-body {
+  background: url(images/background_gradient.jpg) no-repeat;
+  background-size:cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+.calculator {
+  background: #b6b6d5;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 260px;
+}
+
+.calc-display {
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  background-color: #8989cd;
+  color: #fff;
+  padding: 10px;
+  text-align: right;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  height: 60px;
+  font-size: 22px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #3c3c55;
+  color: white;
+  transition: all 0.2s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+button:hover {
+  background-color: #505073;
+}
+
+.zero {
+  grid-column: span 2;
+}
+.clear{
+  background-color: red;
+}
+.clear:hover{
+  background-color: rgb(229, 160, 160);
+}
+.equals{
+  background-color: rgba(111, 214, 235, 0.634);
+}
+.equals:hover{
+  background-color: rgb(147, 227, 230);
+}
